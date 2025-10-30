@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans',sans-serif;
+
+}
+ :root{
+    --black: #19272E;
+    --whait: #ffffff;
+    --dark-blue: #818EEA;
+    --light-gray:  #E1E1E1;
+
+ }
+ 
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    box-shadow: 0px 2px 8px 0px #0000001A;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:32px;
+}
+.logo span{
+color: var(--dark-blue);
+font-family: Public Sans;
+font-weight: 700;
+font-size: 20px; 
+line-height: 100%;
+letter-spacing: -0.6px;
+
+}
+ .logo nav{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+ }
+
+ .logo a{
+text-decoration: none;
+color:var(--black);
+font-family: Public Sans;
+font-weight: 500;
+font-size: 17px; 
+line-height: 100%;
+letter-spacing: -0.6px;
+
+ }
+  .icons{
+    display: flex;
+    align-items: center;
+    gap:24px;
+  }
+  .icon{
+    display: flex;
+    align-items: center;
+    gap:4px;
+  }
+
+/*!header*/
+
+/* <Genros> */
+#hero{
+  background: url(/images/Main\ image.png\(true\).png) center no-repeat;
+  padding: 32px 0 24px;
+}
+.hero{
+  padding: 212px 0;
+}
+.hero  h1{
+font-family: Public Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px; 
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+color: var(--whait);
+
+}
+.hero p{
+font-family: Public Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px; 
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+color: var(--black);
+
+}
+.genres img{
+  padding: 24px;
+}
+.genres h1{
+ margin-top: 112px;
+}
+.genres h5{
+font-family: Public Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px; 
+line-height: 120%;
+padding:0 49px 24px; 
+
+}
+.card2 h5{
+    padding: 0 40px 24px;
+}
+.cards{ 
+  display: flex;
+  flex-wrap: nowrap;
+  gap:46px; 
+  margin: 64px 0 24px;
+}
+.cards>div{
+  background: var(--light-gray);
+  border-radius: 16px;
+}
+
+/* </Genres> */
+
+/* <New Books> */
+.new-books h1{
+font-family: Public Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 48px; 
+line-height: 120%; 
+text-align: center;
+padding: 112px 0 64px;
+
+}
+.books{
+  display: flex;
+  justify-content: center;
+  gap:64px;
+  margin:0 196px 24px;
+}
+
+.book1{
+  padding-top: 26px;
+}
+.books h6{
+font-family: Public Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px; 
+line-height: 120%; 
+text-transform: uppercase;
+color: var(--black);
+padding-bottom: 4px;
+
+}
+.books p{
+font-family: Public Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px; 
+line-height: 140%;
+letter-spacing: 0%;
+}
+
+.book2{
+  padding-bottom: 48px;
+}
+.book3{
+  padding-top: 48px;
+}
+
+/* </New Books> */
+
+/* <Books> */
+ .Novels h1{
+margin: 112px 0 64px;
+font-family: Public Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 48px; 
+line-height: 120%; 
+
+ }
+  .titles{
+    display: flex;
+    flex-wrap: nowrap;
+    gap:30px;
+    padding-bottom: 24px;
+
+  }
+
+  .titles h6{
+padding: 8px 0 4px;
+font-family: Public Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px; 
+line-height: 120%; 
+color: var(--black);
+
+  }
+  .titles p{
+padding-bottom: 22px;
+font-family: Public Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px; 
+line-height: 140%; 
+}
+.title2{
+  padding-bottom: 44px;
+}
+ 
+.title4{
+  padding-bottom: 0;
+}
+.title5 p{
+  padding-bottom: 44px;
+}
+
+/* </Books> */
+
+/* <About Us> */
+
+.About-Us h1{
+padding-top: 112px;
+font-family: Public Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 48px; 
+line-height: 120%; 
+text-align: center;
+
+}
+.image-text{
+  display: flex;
+  gap:64px;
+  margin: 0 28px 112px;
+}
+.image-text img{
+width: 500;
+height: 500; 
+opacity: 1;
+
+}
+.image-text p{
+display: flex;
+align-items: center;
+padding-right: 0;
+font-family: Public Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px; 
+line-height: 140%; 
+
+  
+}
+/* </About Us> */
+
+
+/* <footer> */
+footer{
+  background: var(--dark-blue);
+  color: var(--whait);
+}
+ 
+.footer1 h1{
+font-family: Public Sans;
+font-weight: 600;
+font-size: 36px; 
+line-height: 44px;
+letter-spacing: -1.5px;
+padding-bottom: 24px ; 
+margin-top: 112px;
+
+}
+.footer1 p{
+font-family: Public Sans;
+font-weight: 400;
+font-size: 14px; 
+line-height: 100%;
+letter-spacing: -0.3px;
+vertical-align: middle;
+padding-bottom: 24px; 
+
+}
+.email-signup {
+  max-width: 300px;
+  padding-bottom: 93px;
+}
+
+.input-group {
+  display: flex;
+}
+
+.input-group input[type="email"] {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.input-group button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background: #0056b3;
+}
+.footer{
+  display: flex;
+  gap:85px; 
+}
+.footer-text{
+  display: flex;
+  gap:85px;
+}
+ .footer h6{
+font-family: Public Sans;
+font-weight: 600;
+font-size: 16px; 
+line-height: 22px;
+letter-spacing: -0.4px;
+padding-top: 112px;
+padding-bottom: 21px;
+
+ }
+ 
+
+/* </footer> */
+
+
+
+/* ADAPTIVE */
+@media (max-width: 1024px){
+ .cards {
+  overflow-x: auto;
+ }
+ .new-books h1{
+  padding: 90px 0 55px;
+  text-align: end;
+ }
+ .books{
+  display: flex;
+  justify-content: start;
+  gap:40px;
+ }
+ .titles{
+  overflow-x: auto;
+ }
+ .image-text{
+  display: flex;
+  flex-direction: column;
+ }
+ .image-text img{
+  width: 300;
+  height: 300;
+ }
+ .image-text p{
+  font-size:20px ;
+  padding-top: 15px;
+ }
+ .new-books h1{
+    display: flex;
+    justify-content: center;
+  }
+    .footer{
+      display: flex;
+      gap:50px;
+    }
+    .footer h6{
+  padding-bottom: 10px;
+    }
+    .footer1 h1{
+      font-size: 20px;
+      font-weight: 400;
+      padding-bottom: 10px;
+    }
+}
+@media (max-width: 768px){
+  .hero h1{
+    font-size: 30px;
+  }
+  .hero p{
+    font-size: 15px;
+  }
+   
+   .books{
+    display: block; 
+    overflow-y: scroll;
+    max-width: 316px;
+    width: 100%;
+    padding:0;
+   }
+    .books::-webkit-scrollbar{
+      max-width: 316px;
+      width: 100%;
+    }
+     .footer{
+      display: flex;
+      gap:20px;
+    }
+    .footer h6{
+  padding-bottom: 8px;
+    }
+    .footer1 h1{
+      font-size: 20px;
+      font-weight: 400;
+      padding-bottom: 10px;
+    }
+    .footer1 p{
+      font-size: 9px;
+    }
+    
+}
+@media (max-width: 640px){
+  .header a{
+    display: none;
+  }
+  #hero{
+        padding: 38px 0 30px
+  }
+  .books{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    overflow-y: auto;
+    padding:  0;
+  }
+  .email-signup {
+  max-width: 100px;
+  padding-bottom: 20px;
+}
+  
+  .footer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .footer-text{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+  }
+   .footer-text h6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   } 
+
+  
+}
+@media (max-width: 480px){
+
+
+    .hero h1{
+    font-size: 20px;
+  }
+  .hero p{
+    font-size: 15px;
+  } 
+  .hero{
+    padding: 190px 0;
+  } 
+ 
+
+ .books{
+ 
+  margin: 0 auto;
+  width: 480px;
+ }
+
+   
+}
