@@ -79,7 +79,7 @@ letter-spacing: -0.6px;
 
 /* <Genros> */
 #hero{
-  background: url(/images/image.png) center no-repeat;
+  background: url(/images/hero.image.png) center no-repeat;
   padding: 32px 0 24px;
 }
 .hero{
